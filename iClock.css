@@ -1,0 +1,76 @@
+#desktopTitlebar .reloj {
+  	border-left: 1px solid rgba(255, 255, 255, 0.15);
+	display: block;
+	padding: 5px;
+	width: 150px;
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	position: relative;
+	float: left;
+}
+#desktopTitlebar .reloj .etiqueta{
+	display: block;
+	padding: 0px;
+	width:100%;
+	vertical-align: middle;
+	text-align: left;
+	color: rgba(255, 255, 255, 0.5);
+}
+#desktopTitlebar .reloj .iclock {
+	display: block;
+	float: left;
+	width: 100%;
+	position: relative;
+	/* padding: 5px; */
+	height: 18px;
+	font-size: 25px;
+	/* vertical-align: middle; */
+	align-content: left;
+}
+#desktopTitlebar .reloj .iclock .hours{
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: middle;
+}
+#desktopTitlebar  .reloj .iclock .minutes {
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: middle;
+}
+#desktopTitlebar  .reloj .iclock .seconds {
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: middle;
+
+}
+
+#desktopTitlebar  .reloj .iclock .milliseconds {
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: middle;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#desktopTitlebar .reloj .iclock .time {
+	font-size: 14px;
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: top;
+	color: rgba(255, 255, 255, 0.5);
+	margin-left: 2px;
+	font-weight: bold;
+	top: -4px;
+}
+
+#desktopTitlebar .reloj .iclock .separator{
+	display: block;
+	float: left;
+	position: relative;
+	vertical-align: middle;
+}
